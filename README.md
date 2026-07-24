@@ -59,7 +59,7 @@ Ask yourself:
 
 ## Notion guide
 
-A plain-English setup and customization guide is being prepared. It will be linked here before public launch.
+Read the [setup and customization guide](https://adaptable-nightshade-c98.notion.site/Make-Claude-Get-to-the-Point-3a70c682647581fdb2c3fc5e5b9dd6b8).
 
 ## Credit and license
 
