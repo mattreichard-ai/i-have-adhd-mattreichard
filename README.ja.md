@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="./logo.png" alt="i-have-adhd" width="140" />
+  <img src="./logo.png" alt="i-have-adhd-mattreichard" width="140" />
 </p>
 <p align="center">
   <strong align="center">ADHD に配慮した出力。ADHD の診断は不要です！</strong>
 </p>
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="ライセンス"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/mattreichard-ai/i-have-adhd-mattreichard?style=flat" alt="ライセンス"></a>
 </p>
 
 <p align="center">
@@ -21,13 +21,13 @@
 <summary><strong>Claude Code</strong></summary>
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
-claude plugin install i-have-adhd@i-have-adhd
+claude plugin marketplace add mattreichard-ai/i-have-adhd-mattreichard
+claude plugin install i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-続いて `/i-have-adhd` と入力します。ローカルへのクローンは不要です。Claude Code がリポジトリを取得し、最新の状態に保ちます。
+続いて `/i-have-adhd-mattreichard` と入力します。ローカルへのクローンは不要です。Claude Code がリポジトリを取得し、最新の状態に保ちます。
 
-すべてのセッションで使いたい場合は、`touch ~/.claude/.i-have-adhd-always` を実行してください（[INSTALL.md](./INSTALL.md) を参照）。
+すべてのセッションで使いたい場合は、`touch ~/.claude/.i-have-adhd-mattreichard-always` を実行してください（[INSTALL.md](./INSTALL.md) を参照）。
 
 </details>
 
@@ -35,11 +35,11 @@ claude plugin install i-have-adhd@i-have-adhd
 <summary><strong>Codex</strong></summary>
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
-codex plugin add i-have-adhd@i-have-adhd
+codex plugin marketplace add mattreichard-ai/i-have-adhd-mattreichard --ref main
+codex plugin add i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-続いて `$i-have-adhd` と入力すると、この出力スタイルが明示的に適用されます。Codex がこのスキルに適したタスクだと判断した場合は、暗黙的に呼び出されることもあります。
+続いて `$i-have-adhd-mattreichard` と入力すると、この出力スタイルが明示的に適用されます。Codex がこのスキルに適したタスクだと判断した場合は、暗黙的に呼び出されることもあります。
 
 </details>
 
@@ -82,7 +82,7 @@ codex plugin add i-have-adhd@i-have-adhd
 
 ## ルール
 
-ルールは 10 個です。全文は [SKILL.md](./skills/i-have-adhd/SKILL.md) にあります。
+ルールは 10 個です。全文は [SKILL.md](./skills/i-have-adhd-mattreichard/SKILL.md) にあります。
 
 1. 次に取る行動から始める。
 2. 複数手順のタスクには番号を付ける。
@@ -97,16 +97,16 @@ codex plugin add i-have-adhd@i-have-adhd
 
 ## カスタマイズ
 
-リポジトリを Fork し、`skills/i-have-adhd/SKILL.md` を編集してから、自分のコピーに切り替えます。
+リポジトリを Fork し、`skills/i-have-adhd-mattreichard/SKILL.md` を編集してから、自分のコピーに切り替えます。
 
 ```bash
-claude plugin uninstall i-have-adhd            # まず上流のコピーを削除：
-claude plugin marketplace remove i-have-adhd   # fork と上流では同じ名前が使われる
-claude plugin marketplace add <your-username>/i-have-adhd
-claude plugin install i-have-adhd@i-have-adhd
+claude plugin uninstall i-have-adhd-mattreichard            # まず上流のコピーを削除：
+claude plugin marketplace remove i-have-adhd-mattreichard   # fork と上流では同じ名前が使われる
+claude plugin marketplace add <your-username>/i-have-adhd-mattreichard
+claude plugin install i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-Claude Code を再起動し、`/i-have-adhd` をもう一度呼び出してください。
+Claude Code を再起動し、`/i-have-adhd-mattreichard` をもう一度呼び出してください。
 
 ## クレジット
 

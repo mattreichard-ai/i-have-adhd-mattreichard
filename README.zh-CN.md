@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="./logo.png" alt="i-have-adhd" width="140" />
+  <img src="./logo.png" alt="i-have-adhd-mattreichard" width="140" />
 </p>
 <p align="center">
   <strong align="center">对 ADHD 友好的输出。无需确诊 ADHD！</strong>
 </p>
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="许可证"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/mattreichard-ai/i-have-adhd-mattreichard?style=flat" alt="许可证"></a>
 </p>
 
 <p align="center">
@@ -21,13 +21,13 @@
 <summary><strong>Claude Code</strong></summary>
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
-claude plugin install i-have-adhd@i-have-adhd
+claude plugin marketplace add mattreichard-ai/i-have-adhd-mattreichard
+claude plugin install i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-然后输入 `/i-have-adhd`。无需在本地克隆：Claude Code 会获取该仓库并保持更新。
+然后输入 `/i-have-adhd-mattreichard`。无需在本地克隆：Claude Code 会获取该仓库并保持更新。
 
-想在每次会话中都启用它？运行 `touch ~/.claude/.i-have-adhd-always`（参见 [INSTALL.md](./INSTALL.md)）。
+想在每次会话中都启用它？运行 `touch ~/.claude/.i-have-adhd-mattreichard-always`（参见 [INSTALL.md](./INSTALL.md)）。
 
 </details>
 
@@ -35,11 +35,11 @@ claude plugin install i-have-adhd@i-have-adhd
 <summary><strong>Codex</strong></summary>
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
-codex plugin add i-have-adhd@i-have-adhd
+codex plugin marketplace add mattreichard-ai/i-have-adhd-mattreichard --ref main
+codex plugin add i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-然后输入 `$i-have-adhd`，显式应用这种输出风格。当 Codex 发现某项任务适合使用此技能时，也可以隐式调用它。
+然后输入 `$i-have-adhd-mattreichard`，显式应用这种输出风格。当 Codex 发现某项任务适合使用此技能时，也可以隐式调用它。
 
 </details>
 
@@ -82,7 +82,7 @@ codex plugin add i-have-adhd@i-have-adhd
 
 ## 规则
 
-共 10 条规则。完整内容见 [SKILL.md](./skills/i-have-adhd/SKILL.md)。
+共 10 条规则。完整内容见 [SKILL.md](./skills/i-have-adhd-mattreichard/SKILL.md)。
 
 1. 先说下一步行动。
 2. 多步骤任务使用编号。
@@ -97,16 +97,16 @@ codex plugin add i-have-adhd@i-have-adhd
 
 ## 自定义
 
-Fork 此仓库，编辑 `skills/i-have-adhd/SKILL.md`，然后换成你的副本：
+Fork 此仓库，编辑 `skills/i-have-adhd-mattreichard/SKILL.md`，然后换成你的副本：
 
 ```bash
-claude plugin uninstall i-have-adhd            # 先移除上游副本：
-claude plugin marketplace remove i-have-adhd   # fork 与上游使用相同名称
-claude plugin marketplace add <your-username>/i-have-adhd
-claude plugin install i-have-adhd@i-have-adhd
+claude plugin uninstall i-have-adhd-mattreichard            # 先移除上游副本：
+claude plugin marketplace remove i-have-adhd-mattreichard   # fork 与上游使用相同名称
+claude plugin marketplace add <your-username>/i-have-adhd-mattreichard
+claude plugin install i-have-adhd-mattreichard@i-have-adhd-mattreichard
 ```
 
-重启 Claude Code，然后再次调用 `/i-have-adhd`。
+重启 Claude Code，然后再次调用 `/i-have-adhd-mattreichard`。
 
 ## 致谢
 

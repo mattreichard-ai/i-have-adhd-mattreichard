@@ -1,14 +1,14 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
-  "name": "i-have-adhd",
-  "description": "Shape Claude Code output for an ADHD reader. Action-first, numbered steps, no tangents.",
+  "name": "i-have-adhd-mattreichard",
+  "description": "Action-first output with Matt Reichard's decision, verification, and writing defaults.",
   "owner": {
-    "name": "Ayoub G."
+    "name": "Matt Reichard"
   },
   "plugins": [
     {
-      "name": "i-have-adhd",
-      "description": "Action-first, ADHD-friendly output shaping for Claude Code.",
+      "name": "i-have-adhd-mattreichard",
+      "description": "Action-first output with clear decisions, verification, and next steps.",
       "source": "./",
       "category": "productivity"
     }

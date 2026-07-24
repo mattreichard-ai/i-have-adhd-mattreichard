@@ -1,14 +1,14 @@
 {
-  "name": "i-have-adhd",
+  "name": "i-have-adhd-mattreichard",
   "interface": {
-    "displayName": "I Have ADHD"
+    "displayName": "I Have ADHD, Matt's Version"
   },
   "plugins": [
     {
-      "name": "i-have-adhd",
+      "name": "i-have-adhd-mattreichard",
       "source": {
         "source": "url",
-        "url": "https://github.com/ayghri/i-have-adhd.git",
+        "url": "https://github.com/mattreichard-ai/i-have-adhd-mattreichard.git",
         "ref": "main"
       },
       "policy": {

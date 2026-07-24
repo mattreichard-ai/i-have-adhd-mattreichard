@@ -1,9 +1,9 @@
 {
-  "name": "i-have-adhd",
-  "version": "0.1.0",
-  "description": "Shape Claude Code output for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
+  "name": "i-have-adhd-mattreichard",
+  "version": "0.2.0",
+  "description": "Action-first output with Matt Reichard's decision, verification, and writing defaults.",
   "author": {
-    "name": "Ayoub G.",
-    "url": "https://github.com/ayghri"
+    "name": "Matt Reichard",
+    "url": "https://github.com/mattreichard-ai"
   }
 }

@@ -1,0 +1,7 @@
+interface:
+  display_name: "I Have ADHD, Matt's Version"
+  short_description: "Action-first output with clear decisions"
+  default_prompt: "Use $i-have-adhd-mattreichard to return one clear path, verification, and the next action."
+
+policy:
+  allow_implicit_invocation: true
